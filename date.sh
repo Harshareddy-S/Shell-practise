@@ -9,8 +9,8 @@ sleep 10
 ENDTIME=$(date +%s)
 echo "execution done at: $ENDTIME"
 
-DIFF=$($TIMESTAMP-$ENDTIME)
+DIFF=$(($TIMESTAMP-$ENDTIME))
 
-echo "total execution time: $DIFF"
+echo "total execution time: $DIFF seconds"
 
 
