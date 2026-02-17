@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUM=20
+read NUM
 
 if [$NUM -gt 10]; then
 
