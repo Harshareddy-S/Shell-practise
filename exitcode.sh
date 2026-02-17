@@ -1,8 +1,8 @@
 #!/bin/bash
 
-VALUE=&(id -u)
+USERID=&(id -u)
 
-if [ $VALUE -ne 0 ]; then 
+if [ $USERID -ne 0 ]; then 
     echo "please try in root directory"
 fi
 
