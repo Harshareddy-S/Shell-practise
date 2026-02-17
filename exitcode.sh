@@ -20,3 +20,5 @@ exit 1
 else 
 
 echo "installing ngnix....Success"
+
+fi
