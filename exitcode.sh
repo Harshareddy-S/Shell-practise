@@ -1,6 +1,7 @@
 #!/bin/bash
 
-VALUE=&(id -i)
+VALUE=&(id -u)
+
 if [ $VALUE -ne 0 ];then
 echo "please try in root directory"
 fi
