@@ -2,11 +2,11 @@
 
 read NUM
 
-if [$NUM -gt 10]; then
+if [$NUM > 10]; then
 
 echo "$NUM is greater than 10"
 
-elif [$NUM -lt 10];then
+elif [$NUM < 10];then
 echo "$NUM is less than 10"
 
 fi
