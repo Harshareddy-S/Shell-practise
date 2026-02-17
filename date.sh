@@ -1,9 +1,12 @@
 #!/bin/bash
 
-echo "execution time: $date"
+TIMESTAMP=$(date)
+
+echo "execution time: $TIMESTAMP"
 
 sleep 10
 
-echo "execution done at: $date"
+ENDTIME=$(date)
+echo "execution done at: $ENDTIME"
 
 
