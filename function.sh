@@ -6,7 +6,6 @@ if [ $USERID -ne 0 ]; then
 
     echo "Try in root directory"
 
-    exit 1
 
 fi
 
