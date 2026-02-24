@@ -1,6 +1,6 @@
 USERID=$(id -u)
-LOGS_FOLDER= "var/log/Shell-practise"
-LOGS_FILE="var/log/Shell-practise/$0.log"
+LOGS_FOLDER= "/var/log/Shell-practise"
+LOGS_FILE="/var/log/Shell-practise/$0.log"
 
 if [ $USERID -ne 0 ]; then
     echo "Try in root directory"
