@@ -31,5 +31,5 @@ do
 
     else
         echo ""$package already installed.. skipping installation  &>> $LOGS_FILE
-
+    fi 
 done
