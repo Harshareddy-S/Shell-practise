@@ -19,8 +19,8 @@ fi
 dnf install nginx -y
 VALIDATE $? "nginx intalling"
 
-# dnf install Mysql -y
-# VALIDATE $? "Mysql intalling"
+dnf install Mysql -y
+VALIDATE $? "Mysql intalling"
 
-# dnf install nodejs -y
-# VALIDATE $? "nodejs intalling"
+dnf install nodejs -y
+VALIDATE $? "nodejs intalling"
