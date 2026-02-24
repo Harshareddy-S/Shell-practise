@@ -14,7 +14,7 @@ dnf install nginx -y
 if [ $? -ne 0 ]; then
 
     echo "nginx installing ...Failure"
-    exit 1
+    
 else
 
     echo "nginx isntalling ... Success"
@@ -27,7 +27,7 @@ dnf install Mysql -y
 if [ $? -ne 0 ]; then
 
     echo "Mysql installing ...Failure"
-    exit 1
+    
 else
 
     echo "Mysql isntalling ... Success"
@@ -39,7 +39,7 @@ dnf install mongodb -y
 if [ $? -ne 0 ]; then
 
     echo "mongodb installing ...Failure"
-    exit 1
+    
 else
 
     echo "mongodb isntalling ... Success"
