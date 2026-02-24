@@ -25,7 +25,7 @@ for package in $@
 do 
 
 dnf install $package -y &>> $LOGS_FILE
-VALIDATE $? "nginx intalling"
+VALIDATE $? "$package intalling"
 
 done
 
