@@ -30,6 +30,6 @@ do
         VALIDATE $? "$package intalling"
 
     else
-        echo ""$package already installed.. skipping installation  &>> $LOGS_FILE
+        echo "$package already installed.. skipping installation"  &>> $LOGS_FILE
     fi 
 done
